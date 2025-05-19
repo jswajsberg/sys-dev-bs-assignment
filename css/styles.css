@@ -1,0 +1,39 @@
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: 'MedievalSharp', serif;
+}
+
+.hero {
+  background-image: url('../img/stone.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* adjust opacity here */
+  z-index: 0;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+
+.hero h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  text-align: center;
+}
