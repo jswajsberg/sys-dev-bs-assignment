@@ -17,7 +17,7 @@ body {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4); /* adjust opacity here */
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 0;
 }
 
@@ -35,4 +35,23 @@ body {
 .hero p {
   font-size: 1.5em;
   text-align: center;
+}
+
+.chateau-logo {
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+  padding-bottom: 1rem;
+  display: block;
+}
+
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 1rem;
+}
+
+.card-img-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
